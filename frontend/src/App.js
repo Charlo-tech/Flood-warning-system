@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlowRateDisplay } from '../components/FlowRateDisplay';
+import FlowRateDisplay from './components/FlowRateDisplay';
 
 const App = () => {
   return (

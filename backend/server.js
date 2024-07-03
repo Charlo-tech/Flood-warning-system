@@ -1,7 +1,7 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const flowRateRoutes = require('./routes/flowRate');
-require('dotenv').config();
+require('dotenv').config(); // Load environment variables from .env file
 
 const app = express();
 connectDB();

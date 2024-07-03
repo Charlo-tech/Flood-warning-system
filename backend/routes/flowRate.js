@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const FlowRate = require('../models/FlowRate');
+const FlowRate = require('../models/flowRate');
 const sendSMS = require('../services/africasTalking');
 
 router.post('/add', async (req, res) => {
