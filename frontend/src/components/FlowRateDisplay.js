@@ -6,7 +6,7 @@ const FlowRateDisplay = () => {
 
   useEffect(() => {
     const fetchFlowRates = async () => {
-      const res = await axios.get('/api/flowrate');
+      const res = await axios.get('http:localhost:5000/api/flowrate');
       setFlowRates(res.data);
     };
     fetchFlowRates();
